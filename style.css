@@ -412,3 +412,180 @@ nav a:hover{
     box-shadow:0 20px 45px rgba(56,189,248,.35);
 
 }
+/* ==========================================================
+   STYLE.CSS
+   PART 3
+========================================================== */
+
+
+/* ================= FAQ ================= */
+
+#faq{
+
+    background:#0f172a;
+
+}
+
+#faq h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+}
+
+.faq-item{
+
+    max-width:900px;
+
+    margin:20px auto;
+
+    background:#1f2937;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+}
+
+.faq-question{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    color:#fff;
+
+    text-align:left;
+
+    padding:22px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.faq-answer{
+
+    display:none;
+
+    padding:0 22px 22px;
+
+    color:#b8c1cc;
+
+    line-height:1.8;
+
+}
+
+.faq-item.active .faq-answer{
+
+    display:block;
+
+}
+
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:#94a3b8;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    background:#0d1117;
+
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:950px){
+
+.hero{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+padding-top:120px;
+
+}
+
+.hero p{
+
+margin:auto auto 35px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+.gallery{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:600px){
+
+section{
+
+padding:70px 6%;
+
+}
+
+.logo{
+
+font-size:22px;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.download-btn{
+
+padding:16px 30px;
+
+}
+
+.main-download{
+
+width:100%;
+
+}
+
+}
