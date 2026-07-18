@@ -241,3 +241,174 @@ nav a:hover{
     background:#27c93f;
 
 }
+/* ==========================================================
+   STYLE.CSS
+   PART 2
+========================================================== */
+
+
+/* ================= FEATURES ================= */
+
+#features{
+
+    background:#111827;
+
+}
+
+#features h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+}
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:#1f2937;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.card p{
+
+    color:#b8c1cc;
+
+}
+
+
+/* ================= SCREENSHOTS ================= */
+
+#screenshots h2{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+}
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+.shot{
+
+    height:220px;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#1f2937,#0f172a);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.shot:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+/* ================= DOWNLOAD ================= */
+
+#download{
+
+    text-align:center;
+
+    background:#111827;
+
+}
+
+#download h2{
+
+    font-size:46px;
+
+    margin-bottom:20px;
+
+}
+
+#download p{
+
+    color:#b8c1cc;
+
+    margin-bottom:35px;
+
+}
+
+.main-download{
+
+    background:#38bdf8;
+
+    color:#000;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:18px 42px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.main-download:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(56,189,248,.35);
+
+}
