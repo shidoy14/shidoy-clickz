@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shidoy Clickz</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Shidoy <span>Clickz</span>
+    </div>
+
+    <nav>
+
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#faq">FAQ</a>
+        <a href="#download">Download</a>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>
+            Fast.<br>
+            Lightweight.<br>
+            Reliable.
+        </h1>
+
+        <p>
+
+            Shidoy Clickz is a modern auto clicker built for speed,
+            precision and simplicity.
+
+        </p>
+
+        <a class="download-btn" href="#download">
+            Download Now
+        </a>
+
+    </div>
+
+    <div class="hero-image">
+
+        <div class="mockup">
+
+            <h3>Preview</h3>
+
+            <div class="window">
+
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="features">
+
+<h2>Features</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Lightning Fast</h3>
+
+<p>
+Optimized for maximum clicking performance.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Custom Hotkeys</h3>
+
+<p>
+Start or stop with your favorite keyboard shortcut.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Easy Settings</h3>
+
+<p>
+Simple interface anyone can use.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Free Forever</h3>
+
+<p>
+No subscriptions or hidden payments.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="screenshots">
+
+<h2>Screenshots</h2>
+
+<div class="gallery">
+
+<div class="shot"></div>
+<div class="shot"></div>
+<div class="shot"></div>
+
+</div>
+
+</section>
+
+
+<section id="download">
+
+<h2>Download</h2>
+
+<p>
+
+Latest Version 1.0.0
+
+</p>
+
+<button class="main-download">
+
+Download Shidoy Clickz
+
+</button>
+
+</section>
+
+
+<section id="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Is it free?
+
+</button>
+
+<div class="faq-answer">
+
+Yes.
+Completely free.
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Does it work on Windows?
+
+</button>
+
+<div class="faq-answer">
+
+Yes.
+Windows 10 and Windows 11.
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Can I customize the clicking speed?
+
+</button>
+
+<div class="faq-answer">
+
+Absolutely.
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+
+© 2026 Shidoy Clickz
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
