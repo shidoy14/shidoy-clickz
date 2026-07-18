@@ -40,6 +40,6 @@ const downloadButton = document.querySelector(".main-download");
 
 if (downloadButton) {
     downloadButton.addEventListener("click", () => {
-        alert("Thanks for downloading Shidoy Clickz! (Demo)");
+        window.location.href = "files/Shidoy-Clickz.zip";
     });
 }
