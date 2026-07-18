@@ -589,3 +589,12 @@ width:100%;
 }
 
 }
+.hero,
+#features,
+#screenshots,
+#download,
+#faq {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
